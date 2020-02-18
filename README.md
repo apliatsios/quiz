@@ -22,12 +22,12 @@
 ```
 6. Point your browser to [http://dev.client.com:8080](http://dev.client.com:8080) and you should get a blank page with no console errors
 7. Start with `server` by viewing `server\index.php` --a file that **SHOULD NOT** be edited 
-8. As you can guess it contains a very simplistic approach for 3 'modes':
+8. As you can guess it contains a very simplistic approach for 2 'modes':
     * Loging in
-    * Authenticating a request
-    * Get a response/result for a request  
+    * Authenticating a request and getting back a response
 
    'mode' is captured by the `mode` key of the super global `$_GET`  
-   That is reflected in 3 distinct URIs
+   That is reflected in 2 distinct URIs
     * [http://dev.server.com:8080?mode=login&username=x&password=x](http://dev.server.com:8080?mode=login&username=x&password=x)
+    * [http://dev.server.com:8080?mode=get_users&hash=x](http://dev.server.com:8080?mode=get_users&hash=x)
 
