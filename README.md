@@ -20,3 +20,4 @@
   errorMessage: "Invalid Route"
 }
 ```
+6. Point your browser to [http://dev.client.com](http://dev.client.com) and you should get a blank page with no console errors
