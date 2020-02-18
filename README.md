@@ -21,3 +21,9 @@
 }
 ```
 6. Point your browser to [http://dev.client.com](http://dev.client.com) and you should get a blank page with no console errors
+7. Start with `server` by viewing `server\index.php` --a file that **SHOULD NOT** be edited 
+8. As you can guess is a very simplistic approach for:
+    * Loging in
+    * Authenticating a request
+    * Get a response/result for a request
+9. 
