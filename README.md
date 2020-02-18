@@ -6,8 +6,8 @@
 
 #### Steps to install
 
-1. Clone the repo in your machine
-2. Create a branch with your username in order to deploy there
+1. Fork the repo
+2. Edit and then create a pull request
 
 #### What to do
 1. Update your Apache/hosts configuration so that `client` folder serves the `dev.client.com` host at port `8080`
