@@ -75,6 +75,7 @@
       Bear in mind that those 2 requests **SHOULD NOT placed** in nested calls, but rather be part of a promise request
     * When the previous promised is deferred, then append the appropriate rows in `#viewProjects table tbody` element
     
+    ![](client.gif)
     
     Everything should be done with either `jQuery` or vanilla Javascript. It's up to you.
     Your code should be compliant with only the latest versions of `Chrome`, `Firefox`, `Safari`, `Opera` and `Edge`
