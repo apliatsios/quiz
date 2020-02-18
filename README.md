@@ -1,4 +1,4 @@
-# Developer Quiz
+# Full-Stack Developer Quiz
 
 #### Requirements
 1. Apache server
