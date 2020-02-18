@@ -14,13 +14,13 @@
 2. Add the **Apache** vhost configuration in `client.conf` file
 3. Update your Apache/hosts configuration so that `server` folder serves the `dev.server.com` host at port `8080`
 4. Add the **Apache** vhost configuration in `server.conf` file
-5. Point your browser to [http://dev.server.com](http://dev.server.com) and you should get the response  
+5. Point your browser to [http://dev.server.com:8080](http://dev.server.com:8080) and you should get the response  
 ```php
 {
   errorMessage: "Invalid Route"
 }
 ```
-6. Point your browser to [http://dev.client.com](http://dev.client.com) and you should get a blank page with no console errors
+6. Point your browser to [http://dev.client.com:8080](http://dev.client.com:8080) and you should get a blank page with no console errors
 7. Start with `server` by viewing `server\index.php` --a file that **SHOULD NOT** be edited 
 8. As you can guess it contains a very simplistic approach for 3 'modes':
     * Loging in
@@ -29,5 +29,5 @@
 
    'mode' is captured by the `mode` key of the super global `$_GET`  
    That is reflected in 3 distinct URIs
-    * [http://dev.client.com?mode=login&username=x&password=x](http://dev.client.com?mode=login&username=x&password=x)
+    * [http://dev.client.com:8080?mode=login&username=x&password=x](http://dev.client.com:8080?mode=login&username=x&password=x)
 
