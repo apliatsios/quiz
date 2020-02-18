@@ -15,7 +15,7 @@
 3. Update your Apache/hosts configuration so that `server` folder serves the `dev.server.com` host at port `8080`
 4. Add the **Apache** vhost configuration in `server.conf` file
 5. Point your browser to [http://dev.server.com](http://dev.server.com) and you should get the response  
-```JSON
+```php
 {
   errorMessage: "Invalid Route"
 }
