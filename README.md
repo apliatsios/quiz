@@ -35,4 +35,11 @@
     * `mime.php` => See inside instructions
     * `hash_generator.php` => See inside instructions and make sure a value is returned
     * `authenticate.php` => See inside instructions (It works in conjunction with `hash_generator.php`)
-
+    * `get_users.php`, `get_projects.php` => See inside instructions as they just return data
+10. By the time you have finished and given you've chosen `sha256` as your preferred way of hashing, any given URI should return the appropriate response:
+    * [http://dev.server.com:8080/?username=chris&password=12345&mode=login&solution](http://dev.server.com:8080/?username=chris&password=12345&mode=login&solution)  
+    ```PHP
+    {
+      hash: "037436c6a6a4ac88a0fa14394163a3c893b135e685762786cfe948601b3f6618"
+    }
+    ```
