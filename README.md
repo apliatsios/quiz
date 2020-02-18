@@ -63,7 +63,7 @@
         }
     ]
     ```
-11. Heading to `client` project there's the need to edit `client/scripts.js` so that:
+11. Heading to `client` project there's the need to edit `client/index.php` and `client/scripts.js` so that:
     * The form should have all of its fields required
     * Everything is executed after the `DOM` is fully loaded
     * There is a simple way of 'capturing' the hash changes so that 2 'hash routes' exist: [http://dev.client.com:8080/#login](http://dev.client.com:8080/#login) and [http://dev.client.com:8080/#viewProjects](http://dev.client.com:8080/#viewProjects). Any other route resolves to `#login` **even when there's no route at all** => [http://dev.client.com:8080/](http://dev.client.com:8080/).
