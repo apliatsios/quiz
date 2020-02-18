@@ -65,4 +65,9 @@
     ```
 11. Heading to `client` project there's the need to edit `client/scripts.js` so that:
     * Everything is executed after the `DOM` is fully loaded
-    * There a simple way of 'capturing' the hash changes so that 2 'hash routes' exist: `#login` and `#viewProjects`. Any other route resolves to `#login` 
+    * There a simple way of 'capturing' the hash changes so that 2 'hash routes' exist: `#login` and `#viewProjects`. Any other route resolves to `#login` **even when there's no route at all**.
+    * 
+    
+    Everything should be done with either `jQuery` or vanilla Javascript. It's up to you.
+    
+ **Good Luck!**
