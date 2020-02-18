@@ -64,9 +64,10 @@
     ]
     ```
 11. Heading to `client` project there's the need to edit `client/scripts.js` so that:
+    * The form should have all of its fields required
     * Everything is executed after the `DOM` is fully loaded
     * There is a simple way of 'capturing' the hash changes so that 2 'hash routes' exist: [http://dev.client.com:8080/#login](http://dev.client.com:8080/#login) and [http://dev.client.com:8080/#viewProjects](http://dev.client.com:8080/#viewProjects). Any other route resolves to `#login` **even when there's no route at all** => [http://dev.client.com:8080/](http://dev.client.com:8080/).
-    * 
+    * When the form is submitted, the default action should cancelled and instead you should make an AJAX call to the appropriate `server` URI => [http://dev.server.com:8080?mode=login](http://dev.server.com:8080?mode=login)
     
     Everything should be done with either `jQuery` or vanilla Javascript. It's up to you.
     Your code should be compliant with only the latest versions of `Chrome`, `Firefox`, `Safari`, `Opera` and `Edge`
