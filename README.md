@@ -34,5 +34,5 @@
 9. Files that are needed to be edited:
     * `mime.php` => See inside instructions
     * `hash_generator.php` => See inside instructions and make sure a value is returned
-    * ``
+    * `authenticate.php` => See inside instructions (It works in conjunction with `hash_generator.php`)
 
