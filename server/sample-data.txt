@@ -1,0 +1,58 @@
+==== Sample data for `users` ====
+ [
+	{
+		"id": 1,
+		"name": "John",
+		"lastName": "Doe"
+	},
+	{
+		"id": 2,
+		"name": "Chris",
+		"lastName": "Black"
+	},
+	{
+		"id": 3,
+		"name": "George",
+		"lastName": "Best"
+	}
+]
+
+==== Sample data for `projects` ====
+ [
+	{
+		"name": "Wordpress",
+		"user": 1
+	},
+	{
+		"name": "Blog",
+		"user": 1
+	},
+	{
+		"name": "Wiki",
+		"user": 2
+	},
+	{
+		"name": "Magento",
+		"user": 3
+	},
+	{
+		"name": "Codeigniter",
+		"user": 1
+	},
+	{
+		"name": "Slim",
+		"user": 3
+	},
+	{
+		"name": "Laravel",
+		"user": 2
+	},
+	{
+		"name": "Drupal",
+		"user": 1
+	},
+	{
+		"name": "Joomla",
+		"user": 4
+	}
+]
