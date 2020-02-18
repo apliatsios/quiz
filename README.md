@@ -26,7 +26,7 @@
     * Loging in
     * Authenticating a request and getting back a response
 
-   'mode' is captured by the `mode` key of the super global `$_GET`  
+   'mode' is captured by the `mode` key of the super global `$_GET` array  
    That is reflected in 2 distinct URIs
     * [http://dev.server.com:8080?mode=login&username=x&password=x](http://dev.server.com:8080?mode=login&username=x&password=x)
     * [http://dev.server.com:8080?mode=get_users&hash=x](http://dev.server.com:8080?mode=get_users&hash=x)
