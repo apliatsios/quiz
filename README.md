@@ -29,5 +29,5 @@
 
    'mode' is captured by the `mode` key of the super global `$_GET`  
    That is reflected in 3 distinct URIs
-    * [http://dev.client.com:8080?mode=login&username=x&password=x](http://dev.client.com:8080?mode=login&username=x&password=x)
+    * [http://dev.server.com:8080?mode=login&username=x&password=x](http://dev.server.com:8080?mode=login&username=x&password=x)
 
