@@ -66,14 +66,14 @@
 11. Heading to `client` project there's the need to edit `client/index.php` and `client/scripts.js` so that:
     * The form should have all of its fields required
     * Everything is executed after the `DOM` is fully loaded
-    * There is a simple way of 'capturing' the hash changes so that 2 'hash routes' exist: [http://dev.client.com:8080/#login](http://dev.client.com:8080/#login) and [http://dev.client.com:8080/#viewProjects](http://dev.client.com:8080/#viewProjects). Any other route resolves to `#login` **even when there's no route at all** => [http://dev.client.com:8080/](http://dev.client.com:8080/).
-    * When the form is submitted, the default action should cancelled and instead you should make an AJAX call to the appropriate `server` URI => [http://dev.server.com:8080?mode=login](http://dev.server.com:8080?mode=login) by passing the parameters required. If the user selected the `Save Password` option, store the `username` and `password` in `localStorage`, otherwise empty those values from it.
+    * There is a simple way of 'capturing' the hash changes so that 2 'hash routes' exist: [http://dev.client.com:8080/#login](http://dev.client.com:8080/#login) and [http://dev.client.com:8080/#viewProjects](http://dev.client.com:8080/#viewProjects). Any other route resolves to `#login` **even when there's no route at all** => [http://dev.client.com:8080/](http://dev.client.com:8080/)
+    * When the form is submitted, the default action should cancelled and instead you should make an AJAX call to the appropriate `server` URI => [http://dev.server.com:8080?mode=login](http://dev.server.com:8080?mode=login) by passing the parameters required. If the user selected the `Save Password` option, store the `username` and `password` in `localStorage`, otherwise empty those values from it. The `save` option should be remembered, too
     * When the above request is finished **AND ONLY THEN**, you should immediately visit the:  
       * [http://dev.server.com:8080?mode=get_users](http://dev.server.com:8080?mode=get_users)
       * [http://dev.server.com:8080?mode=get_projects](http://dev.server.com:8080?mode=get_projects)  
       By passing the `hash` parameter as well as it was given in the previous response.  
       Bear in mind that those 2 requests **SHOULD NOT placed** in nested calls, but rather be part of a promise request
-    * When the previous promised is deferred, then append the appropriate rows in `#viewProjects table tbody` element.
+    * When the previous promised is deferred, then append the appropriate rows in `#viewProjects table tbody` element
     
     
     Everything should be done with either `jQuery` or vanilla Javascript. It's up to you.
