@@ -1,4 +1,4 @@
-# Digital Publications Group Developer Quiz
+# Developer Quiz
 
 #### Requirements
 1. Apache server
