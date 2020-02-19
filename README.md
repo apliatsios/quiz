@@ -73,7 +73,9 @@
       * [http://dev.server.com:8080?mode=get_projects](http://dev.server.com:8080?mode=get_projects)  
       By passing the `hash` parameter as well as it was given in the previous response.  
       Bear in mind that those 2 requests **SHOULD NOT** be placed in nested calls, but rather be part of a promise request
-    * When the previous promised is deferred, then append the appropriate rows in `#viewProjects table tbody` element
+    * When the previous promised is deferred, then change route to `#viewProjects` and append the appropriate rows in `#viewProjects table tbody` element
+    * Going back and forth from `#login` to `#viewProjects` should initialize the two actions again and again
+    * As you've understood, the two routes (`#login`, `#viewProjects`) should be followed by some business logic which can be expressed in two, or more, methods of your code or placed anywhere you think is appropriate
     
     ![](client.gif)
     
