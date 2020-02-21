@@ -43,7 +43,7 @@
       hash: "037436c6a6a4ac88a0fa14394163a3c893b135e685762786cfe948601b3f6618"
     }
     ```
-    * [http://dev.server.com:8080/?mode=get_users&hash=037436c6a6a4ac88a0fa14394163a3c893b135e685762786cfe948601b3f6618](http://dev.server.com:8080/?mode=get_users&hash=037436c6a6a4ac88a0fa14394163a3c893b135e685762786cfe948601b3f6618&solution)  
+    * [http://dev.server.com:8080/?mode=get_users&hash=037436c6a6a4ac88a0fa14394163a3c893b135e685762786cfe948601b3f6618](http://dev.server.com:8080/?mode=get_users&hash=037436c6a6a4ac88a0fa14394163a3c893b135e685762786cfe948601b3f6618)  
     ```PHP
     [
         {
