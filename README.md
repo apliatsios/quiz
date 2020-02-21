@@ -23,7 +23,7 @@
 6. Point your browser to [http://dev.client.com:8080](http://dev.client.com:8080) and you should get a blank page with no console errors
 7. Start with `server` by viewing `server/index.php` in the IDE of your choice --a file that **SHOULD NOT** be edited 
 8. As you can guess it contains a very simplistic approach for 2 'modes':
-    * Loging in
+    * Logging in
     * Authenticating a request and getting back a response
 
    'mode' is captured by the `mode` key of the super global `$_GET` array  
