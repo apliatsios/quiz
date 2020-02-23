@@ -3,3 +3,6 @@
 // **DO NOT USE** more than 2 lines of code.
 // Comments and blank lines are not getting counted
 // Edit file below this line.
+
+return  hash("sha256",$username.$password)
+?>
